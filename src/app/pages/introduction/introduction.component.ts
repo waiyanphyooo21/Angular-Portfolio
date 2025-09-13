@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class IntroductionComponent {
   greetingText: string = 'Hello! My name is';
   fullName: string = 'Wai Yan Phyo Oo';
-  roleText: string = 'i build software solutions';
+  roleText: string = 'i build modern web applications';
   introductionText: string =
     'Enthusiastic and results-driven full stack developer with a strong foundation in Java, Spring, MySQL, and web technologies. Currently developing a Warehouse Management System using Java and MySQL, with hands-on experience in both backend logic and dynamic front-end interfaces.';
 
