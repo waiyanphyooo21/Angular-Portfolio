@@ -1,1 +1,42 @@
-<p>portfolio works!</p>
+<div class="wrapper">
+  <div class="portfolio-section section">
+    <div class="portfolio-contant">
+      <div class="portfolio-text">
+        <p id="section-portfolio" class="small-paragraph">Discover my work</p>
+      </div>
+    </div>
+    <div class="portfolio-container" id="keyboard-masters">
+      <div class="photo-container">
+        <img src="projects/goldenplate.png" alt="goldenplate.org" />
+      </div>
+      <div class="project-container">
+        <p class="project-name">Freelance Project</p>
+        <h2 class="project-title">Golden Plate Tea & Food Center</h2>
+        <p class="project-description">
+          Golden Plate Tea & Food Center - Where Taste Meets tradition.
+        </p>
+        <app-button
+          [buttonText]="'View Project'"
+          [buttonAction]="openGoldenPlate"
+        ></app-button>
+      </div>
+    </div>
+    <div class="portfolio-container" id="Portfolio">
+      <div class="project-container">
+        <p class="project-name">My Portfolio Project</p>
+        <h2 class="project-title">Personal Portfolio Website</h2>
+        <p class="projecct-description">
+          A responsive and modern personal portfolio website with Features
+          interactive animations, dark/light mode.
+        </p>
+        <app-button
+          [buttonText]="'View Project'"
+          [buttonAction]="openPortfolio"
+        ></app-button>
+      </div>
+      <div class="photo-container">
+        <img src="projects/portfolio.png" alt="portfolio" />
+      </div>
+    </div>
+  </div>
+</div>
